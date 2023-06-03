@@ -6,4 +6,4 @@ COPY entrypoint.sh /entrypoint.sh
 COPY index.md /index.md
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/entrypoint2.sh"]
